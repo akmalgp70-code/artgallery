@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akmal's Art</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <button class="menu-icon" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="mark">Akmal&rsquo;s Art</div>
+    <nav class="menu-overlay" id="menuOverlay">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-art" id="heroCarousel">
+      <button class="arrow prev" id="heroPrev" aria-label="Previous artwork">&#8592;</button>
+      <button class="arrow next" id="heroNext" aria-label="Next artwork">&#8594;</button>
+      <span class="caption" id="heroCaption"></span>
+      <div class="dots" id="heroDots"></div>
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow">Original works</div>
+      <h1>Paintings made <em>slowly</em>, one layer at a time.</h1>
+      <p>A small studio practice in oil and acrylic &mdash; close, textured, and unhurried. Browse finished pieces or see what's currently on the easel.</p>
+      <a href="#gallery" class="cta">View the gallery &rarr;</a>
+    </div>
+  </section>
+
+  <section class="gallery-strip" id="gallery">
+    <div class="gallery-strip-head">
+      <h2>Gallery</h2>
+      <div class="strip-arrows">
+        <button id="galPrev" aria-label="Scroll left">&#8592;</button>
+        <button id="galNext" aria-label="Scroll right">&#8594;</button>
+      </div>
+    </div>
+    <div class="strip-track" id="stripTrack"></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="eyebrow">About</div>
+    <h2>Hi, I&rsquo;m Akmal.</h2>
+    <p>Saya Akmal Ridzuan seorang student dan penggemar seni.</p>
+    <a href="about.html" class="cta">View more about me &rarr;</a>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Find me on</h2>
+    <div class="social-row">
+      <a href="https://www.instagram.com/akmallridzuan?igsi=MTgxZmxqbXZkd2F5dw==" class="social-icon" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+      <a href="https://wa.me/601151706733" class="social-icon" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20l1.4-4.1A8 8 0 1 1 8.6 19L4 20Z"/><path d="M8.5 8.6c.2-.5.5-.5.8-.5h.6c.2 0 .4 0 .6.4.2.5.7 1.6.7 1.8.1.1.1.3 0 .4-.4.6-.8.9-.5 1.4.7 1.2 1.4 1.7 2.5 2.3.2.1.4.1.5-.1.2-.3.6-.9.8-1.1.1-.2.3-.2.5-.1.5.2 1.6.7 1.9.9.2.1.3.2.4.3 0 .3 0 1-.4 1.5-.4.5-1.2.9-2 .9-.7 0-2.4-.3-4.1-2-1.9-1.9-2.5-3.7-2.6-4.2-.1-.5-.5-1.6-.2-2.1Z"/></svg></a>
+      <a href="https://www.youtube.com/@akmalridzuuan" class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6" width="19" height="12" rx="3.5"/><path d="M10.5 9.8v4.4l4-2.2-4-2.2Z" fill="currentColor" stroke="none"/></svg></a>
+      <a href="https://www.tiktok.com/@akmalridzuuan" class="social-icon" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 3v11.2a3.3 3.3 0 1 1-3.3-3.3c.3 0 .6 0 .9.1"/><path d="M13 3c.3 2.3 1.9 3.9 4.2 4.1"/></svg></a>
+    </div>
+    <p class="contact-note">contact me on social media.</p>
+  </section>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Akmal&rsquo;s Art</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

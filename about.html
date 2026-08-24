@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About &mdash; Akmal's Art</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .about-page{
+    max-width:720px;
+    margin:0 auto;
+    padding:70px 24px 110px;
+  }
+  .about-page .eyebrow{
+    display:flex; align-items:center; gap:12px;
+    font-size:12px; letter-spacing:0.22em; text-transform:uppercase;
+    color:var(--muted-blue); margin-bottom:20px;
+  }
+  .about-page .eyebrow::before{ content:""; width:34px; height:1px; background:var(--muted-blue); display:block; }
+  .about-page h1{
+    font-family:'Fraunces', serif; font-weight:500;
+    font-size:clamp(2rem, 4vw, 3rem); color:var(--ink); margin-bottom:30px;
+  }
+  .about-page p{
+    font-size:16px; line-height:1.8; color:#4a4235; margin-bottom:22px; max-width:60ch;
+  }
+  .about-page .back{
+    display:inline-flex; align-items:center; gap:10px;
+    font-size:13px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--ink); text-decoration:none; margin-top:20px;
+    padding-bottom:6px; border-bottom:1px solid var(--ink);
+  }
+  .about-page .back:hover{ color:var(--muted-blue); border-color:var(--muted-blue); }
+</style>
+</head>
+<body>
+
+  <header class="nav">
+    <button class="menu-icon" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="mark">Akmal&rsquo;s Art</div>
+    <nav class="menu-overlay" id="menuOverlay">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-page">
+    <div class="eyebrow">About</div>
+    <h1>Hi, I&rsquo;m Akmal.</h1>
+    <p>Write your full story here &mdash; how you got into painting, the mediums you like working with (oil, acrylic, etc), and what themes or subjects you keep coming back to.</p>
+    <p>You can add another paragraph about your process &mdash; how long a piece usually takes, what a typical session looks like, and what you're currently working on.</p>
+    <p>End with something personal &mdash; what you hope people feel when they look at your work, or what you're hoping to do with this next (commissions, exhibitions, etc).</p>
+    <a href="index.html" class="back">&larr; Back to home</a>
+  </section>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Akmal&rsquo;s Art</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
