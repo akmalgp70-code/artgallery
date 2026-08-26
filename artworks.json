@@ -12,51 +12,65 @@
   {
     "title": "Seascapes",
     "medium": "Acrylic on canvas",
-    "year": 2025,
+    "year": 2026,
+    "size": "50 x 70 cm",
+    "price": "RM200",
     "image": "images/BlueSea.jpg",
     "caption": "Seascapes"
   },
   {
-    "title": "Untitled Study 2",
-    "medium": "Acrylic on canvas",
-    "year": 2025,
+    "title": "Seascapes Shell",
+    "medium": "Acrylic With Texture and Sand on canvas",
+    "year": 2026,
+    "size": "20 x 20 cm",
+    "price": "RM70",
     "image": "images/SeascapeShell.jpg",
-    "caption": "Untitled Study 2"
+    "caption": "Realistic Textured Waves and Shells"
   },
   {
-    "title": "Untitled Study 3",
+    "title": "Forest Waterfall",
     "medium": "Acrylic on canvas",
-    "year": 2025,
+    "year": 2026,
+    "size": "20 x 40 cm",
+    "price": "RM50",
     "image": "images/Waterfall.jpg",
-    "caption": "Untitled Study 3"
+    "caption": "Forest Waterfall at Kedah"
   },
   {
-    "title": "Untitled Study 3",
+    "title": "Far Away",
     "medium": "Acrylic on canvas",
-    "year": 2025,
+    "year": 2026,
+    "size": "50 x 50 cm",
+    "price": "RM250",
     "image": "images/View.jpg",
     "caption": "Untitled Study 3"
   },
   {
-    "title": "Untitled Study 3",
+    "title": "Kampung",
     "medium": "Acrylic on canvas",
-    "year": 2025,
-    "image": "images/Waterfall.jpg",
-    "caption": "Untitled Study 3"
+    "year": 2026,
+    "size": "40 x 40 cm",
+    "price": "RM150",
+    "image": "images/Kampung.jpg",
+    "caption": "A glimpse into rural life"
   },
   {
-    "title": "Untitled Study 3",
+    "title": "Green Ocean",
     "medium": "Acrylic on canvas",
-    "year": 2025,
-    "image": "images/Waterfall.jpg",
-    "caption": "Untitled Study 3"
+    "year": 2026,
+    "size": "50 x 50 cm",
+    "price": "RM200",
+    "image": "images/Sea.jpg",
+    "caption": "A serene view of the ocean"
   },
 
   {
-    "title": "Untitled Study 3",
+    "title": "Kaabah",
     "medium": "Acrylic on canvas",
-    "year": 2025,
+    "year": 2026,
+    "size": "50 x 50 cm",
+    "price": "RM250",
     "image": "images/LukisanKaabah.jpg",
-    "caption": "Untitled Study 3"
+    "caption": "Imaginary Kaabah at Night"
   }
 ]
