@@ -132,4 +132,5 @@ function initMenu(){
 document.addEventListener('DOMContentLoaded', () => {
   initSite();
   initMenu();
+  initLightbox();
 });
