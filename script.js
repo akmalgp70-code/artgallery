@@ -103,6 +103,22 @@ function openLightbox(art){
   lightbox.classList.add('open');
 }
 
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+}
+
+function initLightbox(){
+  const lightbox = document.getElementById('lightbox');
+  if(!lightbox) return;
+  document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if(e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape') closeLightbox();
+  });
+}
+
 /* ---------- NAV MENU TOGGLE ---------- */
 function initMenu(){
   const toggle = document.getElementById('menuToggle');
