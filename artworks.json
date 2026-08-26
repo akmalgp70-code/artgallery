@@ -1,11 +1,14 @@
 [
   {
-    "title": "Scenery at Kaabah",
-    "medium": "Acrylic on canvas",
-    "year": 2026,
-    "image": "images/Kaabah.jpg",
-    "caption": "Kaabah at Night — work in progress"
-  },
+  "title": "Kaabah at Night",
+  "medium": "Acrylic on canvas",
+  "year": 2026,
+  "size": "24 x 36 in",
+  "price": "RM250",
+  "image": "images/kaabah-night.jpg",
+  "caption": "Kaabah at Night — work in progress",
+  "description": "Tulis cerita/details lukisan ni kat sini — inspirasi, teknik, dll."
+ },
   {
     "title": "Seascapes",
     "medium": "Acrylic on canvas",
