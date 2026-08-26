@@ -65,16 +65,17 @@ function initGalleryStrip(artworks){
   const track = document.getElementById('stripTrack');
   if(!track) return;
 
-  artworks.forEach(art => {
+  artworks.forEach((art, i) => {
     const card = document.createElement('div');
     card.className = 'strip-card';
     card.innerHTML = `
       <div class="thumb"><img src="${art.image}" alt="${art.title}"></div>
       <div class="meta">
         <div class="title">${art.title}</div>
-        <div class="sub">${art.medium}${art.year ? ' · ' + art.year : ''}</div>
+        <div class="sub">${art.price || ''}${art.price && art.size ? ' · ' : ''}${art.size || ''}</div>
       </div>
     `;
+    card.querySelector('.thumb').addEventListener('click', () => openLightbox(art));
     track.appendChild(card);
   });
 
@@ -84,6 +85,22 @@ function initGalleryStrip(artworks){
   document.getElementById('galNext').addEventListener('click', () => {
     track.scrollBy({ left: 300, behavior: 'smooth' });
   });
+}
+
+/* ---------- LIGHTBOX ---------- */
+function openLightbox(art){
+  const lightbox = document.getElementById('lightbox');
+  if(!lightbox) return;
+
+  document.getElementById('lightboxImg').src = art.image;
+  document.getElementById('lightboxImg').alt = art.title;
+  document.getElementById('lightboxTitle').textContent = art.title;
+  document.getElementById('lightboxMeta').textContent =
+    [art.medium, art.year, art.size].filter(Boolean).join(' · ');
+  document.getElementById('lightboxPrice').textContent = art.price || '';
+  document.getElementById('lightboxDesc').textContent = art.description || '';
+
+  lightbox.classList.add('open');
 }
 
 /* ---------- NAV MENU TOGGLE ---------- */
