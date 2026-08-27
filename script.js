@@ -100,6 +100,10 @@ function openLightbox(art){
   document.getElementById('lightboxPrice').textContent = art.price || '';
   document.getElementById('lightboxDesc').textContent = art.description || '';
 
+  const buyBtn = document.getElementById('lightboxBuy');
+const message = `Hi Akmal, I'm interested in "${art.title}" (${art.price || 'price on request'}).`;
+buyBtn.href = `https://wa.me/601151706733?text=${encodeURIComponent(message)}`;
+
   lightbox.classList.add('open');
 }
 
