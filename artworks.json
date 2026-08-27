@@ -6,7 +6,7 @@
   "size": "60 x 80 cm",
   "price": "RM500",
   "image": "images/Kaabah.jpg",
-  "caption": "Kaabah at Night — work in progress",
+  "caption": "Scenery of Kaabah",
   "description": "Original artwork by me, created using acrylic paints on canvas. This piece was meaningful for me as it represent my religios beleifs and my love for painting. The artwork captures the beauty and serenity of the Kaabah. "
  },
   {
@@ -43,14 +43,14 @@
     "size": "50 x 50 cm",
     "price": "RM250",
     "image": "images/View.jpg",
-    "caption": "Untitled Study 3"
+    "caption": "A view of house from a far away"
   },
   {
     "title": "Kampung",
     "medium": "Acrylic on canvas",
     "year": 2026,
     "size": "40 x 40 cm",
-    "price": "RM150",
+    "price": "RM50",
     "image": "images/Kampung.jpg",
     "caption": "A glimpse into rural life"
   },
@@ -69,18 +69,18 @@
     "medium": "Acrylic on canvas",
     "year": 2026,
     "size": "50 x 50 cm",
-    "price": "RM250",
+    "price": "RM350",
     "image": "images/LukisanKaabah.jpg",
     "caption": "Imaginary Kaabah at Night"
   },
 
   {
-    "title": "Kaabah",
+    "title": "Original Seascape with Frame",
     "medium": "Acrylic on canvas",
     "year": 2026,
     "size": "50 x 50 cm",
-    "price": "RM250",
+    "price": "RM100",
     "image": "images/BlueSeascape.jpg",
-    "caption": "Imaginary Kaabah at Night"
+    "caption": "Original Seascape with Frame"
   }
 ]
