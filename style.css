@@ -40,18 +40,6 @@ header.nav{
   border-bottom:1px solid #000;
 }
 
-header.nav::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background-image:url('images/Kaabah.jpg');
-  background-size:cover;
-  background-position:center;
-  filter:blur(6px);
-  opacity:0.35;
-  z-index:0;
-}
-
 header.nav > *{
   position:relative;
   z-index:1;
