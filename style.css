@@ -133,6 +133,17 @@ header.nav > *{
 }
 
 /* ---------- HERO ---------- */
+.hero{
+  position:relative;
+  overflow:hidden;
+  min-height:calc(100vh - 76px);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  gap:64px;
+  padding:0 64px;
+}
+
 .hero::before{
   content:"";
   position:absolute;
