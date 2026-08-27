@@ -5,11 +5,14 @@ async function initSite(){
     artworks = await res.json();
   }catch(err){
     console.error('Could not load artworks.json', err);
+    document.getElementById('preloader')?.classList.add('hide');
     return;
   }
 
   initHeroCarousel(artworks);
   initGalleryStrip(artworks);
+  document.getElementById('preloader')?.classList.add('hide');
+
 }
 
 /* ---------- HERO CAROUSEL ---------- */
