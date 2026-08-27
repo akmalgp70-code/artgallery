@@ -29,6 +29,17 @@ body::before{
 }
 
 /* ---------- NAV ---------- */
+header.nav{
+  position:relative;
+  background:var(--ink);
+  color:var(--sand);
+  padding:20px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-bottom:1px solid #000;
+}
+
 header.nav::before{
   content:"";
   position:absolute;
@@ -40,6 +51,7 @@ header.nav::before{
   opacity:0.35;
   z-index:0;
 }
+
 header.nav > *{
   position:relative;
   z-index:1;
