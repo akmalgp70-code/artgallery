@@ -40,12 +40,7 @@ header.nav{
   border-bottom:1px solid #000;
 }
 
-header.nav > *{
-  position:relative;
-  z-index:1;
-}
-
-.nav .mark{
+.nav .mark{ 
   font-family:'Caveat', cursive;
   font-weight:700;
   font-size:30px;
